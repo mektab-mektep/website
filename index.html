@@ -14,16 +14,28 @@
     <img id="butterfly" src="butterfly.gif" alt="">
     <img id="butterfly2" src="butterfly2.gif" alt="">
   </div>
-  <div id="intro-text">MAKTAB-MEKTEP IS A CROSS-BORDER SUMMER SCHOOL ON ECOCRITICAL ARCHITECTURE AND SPATIAL RESEARCH IN CENTRAL ASIA. THE SCHOOL WAS MADE POSSIBLE THROUGH A PARTNERSHIP WITH THE CENTRAL ASIAN OFFICE OF THE ROSA LUXEMBURG FOUNDATION AND THE YESSENOV CASPIAN UNIVERSITY OF TECHNOLOGY AND ENGINEERING</div>
+  <div id="intro-text">Maktab–Mektep is a school that brings together research and practice. We promote ecocritical architecture in Central Asia through collective action</div>
   <div id="logo-caption">First edition: <a href="https://maps.app.goo.gl/nX8uv4wbT4VppTAu6" target="_blank">Aktau (Kazakhstan)</a><br>June 10–25, 2026</div>
-  <div id="accordion">
+  <div class="accordion">
+    <button class="accordion-toggle">About</button>
+    <div id="about-content" class="accordion-panel" data-src="about.md" data-render="paragraphs"></div>
+  </div>
+  <div class="accordion">
     <button id="accordion-toggle" class="accordion-toggle">School Programme</button>
-    <div id="schedule"></div>
+    <div id="schedule" class="accordion-panel" data-src="schedule.md" data-render="schedule"></div>
   </div>
-  <div id="participants-accordion">
+  <div class="accordion">
     <button id="participants-toggle" class="accordion-toggle">Participants</button>
-    <div id="participants-list"></div>
+    <div id="participants-list" class="accordion-panel col-panel" data-src="participants.md" data-render="columns"></div>
   </div>
-  <script src="schedule.js"></script>
-  <script src="participants.js"></script></body>
+  <div class="accordion">
+    <button id="exhibition-toggle" class="accordion-toggle">Exhibition: Shadow Ecologies</button>
+    <div id="exhibition-content" class="accordion-panel" data-src="exhibition.md" data-render="paragraphs"></div>
+  </div>
+  <div id="footer-wrap">
+    <footer id="footer"></footer>
+    <hr id="footer-divider">
+    <img id="partner-logos" src="logos.png" alt="Partner logos">
+  </div>
+  <script src="accordions.js"></script></body>
 </html>

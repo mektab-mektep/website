@@ -1,0 +1,5 @@
+Through an interdisciplinary investigation of Aktau, we arrived at the theme of shadow—not only as one of architecture's fundamental functions, but also as a broader metaphor. How can shadow be used to tell the story of Aktau's architecture and climate, from residential buildings to mobile tent structures? Can it help us better understand the relationships between people, the city, and the environment?
+
+The final show took place in a temporary exhibition space that we created in the courtyard of Yesenov University's Technopark. In doing so, another part of the campus, previously used exclusively as a parking lot, was temporarily transformed into a place for meeting, gathering, and collective celebration. The school's closing concert also took place here.
+
+You can find the documentation of the exhibition on our instagram page

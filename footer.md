@@ -1,0 +1,1 @@
+We would like to express our gratitude to the project partners — the Central Asia Office of the Rosa Luxemburg Foundation and Yessenov University — for their trust and for the opportunity to meet new friends and like-minded people in the city of Aktau
