@@ -173,6 +173,10 @@ h2, .event-time, .event-title {
 .about-text:last-child {
   margin-bottom: 0;
 }
+.about-text a {
+  color: inherit;
+  text-decoration: underline;
+}
 .day-block {
   margin-bottom: 20px;
 }

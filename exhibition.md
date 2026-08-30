@@ -2,4 +2,4 @@ Through an interdisciplinary investigation of Aktau, we arrived at the theme of 
 
 The final show took place in a temporary exhibition space that we created in the courtyard of Yesenov University's Technopark. In doing so, another part of the campus, previously used exclusively as a parking lot, was temporarily transformed into a place for meeting, gathering, and collective celebration. The school's closing concert also took place here.
 
-You can find the documentation of the exhibition on our instagram page
+You can find the documentation of the exhibition on [our instagram page](https://www.instagram.com/maktab_mektep)

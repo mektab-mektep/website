@@ -2,10 +2,15 @@
 const renderers = {
   // Blank-line-separated paragraphs.
   paragraphs(md, panel) {
+    const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const linkify = s => esc(s).replace(
+      /\[([^\]]+)\]\(([^)]+)\)/g,
+      (_, text, url) => `<a href="${url}" target="_blank" rel="noopener">${text}</a>`
+    );
     md.trim().split(/\n\s*\n/).forEach(para => {
       const p = document.createElement('p');
       p.className = 'about-text';
-      p.textContent = para.trim();
+      p.innerHTML = linkify(para.trim());
       panel.appendChild(p);
     });
   },
